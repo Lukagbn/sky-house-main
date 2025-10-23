@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "HelveticaNeueBold";
+  src: url("../fonts/HelveticaNeue-Bold.woff2") format("woff2"),
+    url("../fonts/HelveticaNeue-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("../fonts/HelveticaNeueRegular.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueRegular.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "HelveticaNeue";
+}
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+header {
+  display: flex;
+  height: 388px;
+  background-color: blue;
+  position: absolute;
+  z-index: -1;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+header .container {
+  padding-top: 40px;
+  margin-top: 0;
+}
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  text-decoration: none;
+  color: #ffffff;
+  position: relative;
+  padding-bottom: 20px;
+  font-size: 16pxx;
+}
+
+header a::after {
+  content: "";
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  width: 0%;
+  height: 1px;
+  background-color: #ffffff;
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
+
+header a:hover::after {
+  width: 50%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  flex-wrap: wrap;
+}
+button {
+  cursor: pointer;
+  font-family: "HelveticaNeueBold";
+}
+nav button {
+  color: #171717;
+  border: none;
+  padding: 18px 43px;
+  border-radius: 28px;
+  font-size: 16px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 45px;
+}
+img {
+  width: 100%;
+}
