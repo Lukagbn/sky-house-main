@@ -136,3 +136,148 @@ p {
   align-self: center;
   margin-bottom: 180px;
 }
+footer {
+  background-color: #0a22f4;
+  color: #ffffff;
+}
+.footer-left-content {
+  max-width: 600px;
+  width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.form-group label {
+  display: block;
+  margin-top: 40px;
+}
+.form-group:first-child label {
+  margin-top: 0px;
+}
+.form-group input {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  height: 30px;
+}
+.footer-right-content {
+  max-width: 460px;
+  width: 100%;
+}
+textarea {
+  resize: none;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  height: 90px;
+}
+footer h2 {
+  font-family: "HelveticaNeueBold";
+  font-size: 32px;
+  padding-bottom: 30px;
+  padding-top: 275px;
+}
+footer .container {
+  padding-bottom: 40px;
+}
+.footer-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.form-btn {
+  margin-top: 40px;
+  align-self: flex-end;
+  padding: 18px 45px;
+  border: none;
+  border-radius: 28px;
+  background-color: #ffffff;
+  color: #171717;
+  font-size: 16px;
+}
+.footer-contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.email-container,
+.phone-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.email-container a,
+.phone-container a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 22px;
+}
+.footer-contact-container a {
+  font-size: 22px;
+  font-family: "HelveticaNeueBold";
+}
+.phone-bg,
+.email-bg {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone-bg img,
+.email-bg img {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.map {
+  margin-top: 58px;
+  margin-bottom: 70px;
+  max-width: 450px;
+  width: 100%;
+  box-shadow: -20px 20px 1px 1px white;
+}
+.heart-icon {
+  width: 26px;
+  height: 26px;
+}
+.smart-logo {
+  max-width: 126px;
+  width: 100%;
+}
+.credits {
+  margin-top: 180px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ffffff;
+  flex-wrap: wrap;
+}
+.credit-wrapper p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+}
+.footer-right-content .maps,
+.footer-right-content .footer-contact-container,
+.footer-right-content p {
+  display: none;
+}
+.burger-icon {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  display: none;
+}
