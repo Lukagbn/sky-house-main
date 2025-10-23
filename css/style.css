@@ -112,7 +112,6 @@ p {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  overflow-x: scroll;
 }
 .building-img {
   max-width: 219px;
@@ -309,6 +308,7 @@ footer .container {
     grid-template-columns: auto auto;
     grid-template-rows: 1fr 1fr;
     gap: 10px;
+    overflow-x: scroll;
   }
   header {
     height: 185px;
